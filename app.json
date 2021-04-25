@@ -1,0 +1,12 @@
+{
+  "name": "ReactNative-FocusTime",
+  "displayName": "ReactNative-FocusTime",
+  "expo": {
+    "name": "ReactNative-FocusTime",
+    "slug": "ReactNative-FocusTime",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
