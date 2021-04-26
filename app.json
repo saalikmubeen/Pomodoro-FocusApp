@@ -9,7 +9,17 @@
     "slug": "Pomodoro-FocusApp",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "bundleIdentifier": "com.kilas.PomodoroFocusApp",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
     "android": {
+      "package": "com.kilas.PomodoroFocusApp",
+      "versionCode": 1,
       "useNextNotificationsApi": true
     }
   }
