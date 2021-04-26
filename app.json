@@ -1,6 +1,9 @@
 {
   "name": "Pomodoro-FocusApp",
+  "slug": "Pomodoro-FocusApp",
   "displayName": "ReactNative-FocusTime",
+  "orientation": "portrait",
+  "version": "1.0.0",
   "expo": {
     "name": "Pomodoro-FocusApp",
     "slug": "Pomodoro-FocusApp",
