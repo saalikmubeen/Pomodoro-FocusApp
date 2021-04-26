@@ -1,12 +1,10 @@
 {
-  "name": "ReactNative-FocusTime",
+  "name": "Pomodoro-FocusApp",
   "displayName": "ReactNative-FocusTime",
   "expo": {
-    "name": "ReactNative-FocusTime",
-    "slug": "ReactNative-FocusTime",
+    "name": "Pomodoro-FocusApp",
+    "slug": "Pomodoro-FocusApp",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }
