@@ -8,6 +8,9 @@
     "name": "Pomodoro-FocusApp",
     "slug": "Pomodoro-FocusApp",
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "useNextNotificationsApi": true
+    }
   }
 }

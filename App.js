@@ -1,12 +1,23 @@
-import { StatusBar } from "expo-status-bar"
 import React, { useState, useEffect } from "react"
 import { Platform, StyleSheet, Text, View } from "react-native"
 import AsyncStorage from "@react-native-async-storage/async-storage"
+import * as Notifications from "expo-notifications"
+
 import { FocusHistory } from "./src/features/FocusHistory"
 import { FocusInput } from "./src/features/FocusInput"
 import { Timer } from "./src/features/Timer"
 import { colors } from "./src/utils/colors"
 import { spacing } from "./src/utils/sizes"
+
+// how the incoming notifications should be handled while the app is running (while app is in foreground)
+Notifications.setNotificationHandler({
+  handleNotification: async () => {
+    return {
+      shouldPlaySound: true,
+      shouldShowAlert: true,
+    }
+  },
+})
 
 export default function App() {
   const [focusSubject, setFocusSubject] = useState(null)

@@ -8,6 +8,7 @@ import { spacing } from "../utils/sizes"
 import { CountDown } from "../components/CountDown"
 import { RoundedButton } from "../components/RoundedButton"
 import { Timings } from "./Timings"
+import { triggerLocalNotification } from "../utils/triggerNotification"
 
 const vibrate = () => {
   if (Platform.OS === "ios") {
@@ -45,6 +46,7 @@ export const Timer = ({
       status: "completed",
     })
     clearFocusSubject()
+    triggerLocalNotification(minutes)
     vibrate()
   }
 
